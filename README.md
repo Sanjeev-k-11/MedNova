@@ -17,41 +17,41 @@ MedNova is a modern medical web application that allows users to explore doctors
 ---
 
 ## 📁 Project Structure
-  
-  MedNova/
-  ├── public/
-  ├── src/
-  │   ├── assets/
-  │   ├── component/
-  │   │   ├── Banner.jsx
-  │   │   ├── Footer.jsx
-  │   │   ├── Header.jsx
-  │   │   ├── Navbar.jsx
-  │   │   ├── RelatedDoctors.jsx
-  │   │   ├── SpecialtyMenu.jsx
-  │   │   └── TopDoctors.jsx
-  │   ├── context/
-  │   │   └── AppContext.jsx
-  │   ├── pages/
-  │   │   ├── About.jsx
-  │   │   ├── Appointment.jsx
-  │   │   ├── Contact.jsx
-  │   │   ├── Doctor.jsx
-  │   │   ├── Home.jsx
-  │   │   ├── Login.jsx
-  │   │   ├── MyAppointments.jsx
-  │   │   ├── MyProfile.jsx
-  │   │   └── PrivacyPolicy.jsx
-  │   ├── App.jsx
-  │   ├── index.css
-  │   └── main.jsx
-  ├── index.html
-  ├── package.json
-  ├── tailwind.config.js
-  ├── vite.config.js
-  ├── README.md
-  └── .gitignore
-  
+        
+        MedNova/
+        ├── public/
+        ├── src/
+        │   ├── assets/
+        │   ├── component/
+        │   │   ├── Banner.jsx
+        │   │   ├── Footer.jsx
+        │   │   ├── Header.jsx
+        │   │   ├── Navbar.jsx
+        │   │   ├── RelatedDoctors.jsx
+        │   │   ├── SpecialtyMenu.jsx
+        │   │   └── TopDoctors.jsx
+        │   ├── context/
+        │   │   └── AppContext.jsx
+        │   ├── pages/
+        │   │   ├── About.jsx
+        │   │   ├── Appointment.jsx
+        │   │   ├── Contact.jsx
+        │   │   ├── Doctor.jsx
+        │   │   ├── Home.jsx
+        │   │   ├── Login.jsx
+        │   │   ├── MyAppointments.jsx
+        │   │   ├── MyProfile.jsx
+        │   │   └── PrivacyPolicy.jsx
+        │   ├── App.jsx
+        │   ├── index.css
+        │   └── main.jsx
+        ├── index.html
+        ├── package.json
+        ├── tailwind.config.js
+        ├── vite.config.js
+        ├── README.md
+        └── .gitignore
+        
 
 ---
 
