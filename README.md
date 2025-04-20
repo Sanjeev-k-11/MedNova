@@ -111,4 +111,14 @@ Sanjeev Kumar
 ![image](https://github.com/user-attachments/assets/d9f953d7-393b-440b-8a10-901b6a4234d1)
 ![image](https://github.com/user-attachments/assets/5d0f6c34-971c-48dc-a3ff-03369832bbba)
 ![image](https://github.com/user-attachments/assets/cca66686-6b04-4f88-a2dd-f95c214e1203)
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](https://raw.githubusercontent.com/Sanjeev-k-11/MedNova/main/src/assets/images/homepage.png)
+
+### 🧾 Profile Page
+![Profile](https://raw.githubusercontent.com/Sanjeev-k-11/MedNova/main/src/assets/images/profile.png)
+
+### 📆 Appointments
+![Appointments](https://raw.githubusercontent.com/Sanjeev-k-11/MedNova/main/src/assets/images/appointments.png)
 
