@@ -68,7 +68,7 @@ admin/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/admin-panel-medical.git](https://github.com/Sanjeev-k-11/MedNova.git)
+git clone https://github.com/Sanjeev-k-11/MedNova.git
 cd admin
 ```
 ## 2. Install Dependencies
