@@ -147,3 +147,16 @@ Coming Soon...
 Let me know if you also want a `backend` section or a sample `.env` file template with more security instructions.
 ```
 
+
+# User Login
+![Screenshot 2025-05-21 230412](https://github.com/user-attachments/assets/3fa761e3-876f-4a16-9440-30adfda05eda)
+# user Dasboard and some pages 
+![Screenshot 2025-05-21 230452](https://github.com/user-attachments/assets/648c6b82-efcc-431f-bf38-fd9e8d10e253)
+![Screenshot 2025-05-21 230537](https://github.com/user-attachments/assets/d2825c86-2a72-48d1-9b36-1696a146e4ab)
+![Screenshot 2025-05-21 230558](https://github.com/user-attachments/assets/f7a40d4f-7f28-4961-bcc1-ea73cb464f91)
+![Screenshot 2025-05-21 230614](https://github.com/user-attachments/assets/4297b3d7-8312-46aa-8dcd-4cf3790f84bd)
+![Screenshot 2025-05-21 230648](https://github.com/user-attachments/assets/fc45f42c-7c2d-4bff-9a46-dbb6c8dff016)
+![Screenshot 2025-05-21 230723](https://github.com/user-attachments/assets/effa9a3a-bc59-4bc3-a554-a302d2fdd528)
+![Screenshot 2025-05-21 230756](https://github.com/user-attachments/assets/1a3eb84a-89fd-40e9-9412-3586e37aa267)
+![Screenshot 2025-05-21 230813](https://github.com/user-attachments/assets/0f2c8432-c45b-4837-b270-b58d07f78c16)
+
