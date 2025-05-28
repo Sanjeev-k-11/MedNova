@@ -322,8 +322,10 @@ npm run dev
 
 
 # Login admin, staff, Doctor
-![image](https://github.com/user-attachments/assets/754ad7b1-765e-43dc-9333-c7f8f079f201)
+![Screenshot 2025-05-21 230218](https://github.com/user-attachments/assets/fd512dd0-3a92-4483-941e-d097aa15cbfe)
+
 # User Login
+
 ![image](https://github.com/user-attachments/assets/bcfc7d24-7e8e-4ddf-8b37-57e157e5575b)
 # user Dasboard and some pages 
 ![image](https://github.com/user-attachments/assets/497863a6-db7f-482d-8521-c454e358f19b)
