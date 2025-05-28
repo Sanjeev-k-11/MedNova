@@ -344,5 +344,3 @@ npm run dev
 ![image](https://github.com/user-attachments/assets/7e16a0ef-63f5-4092-a0be-f04c95db5d99)
 ![image](https://github.com/user-attachments/assets/a66685b9-789b-4381-9ffa-2e95f57344fe)
 ![image](https://github.com/user-attachments/assets/a2f60163-9e18-4ee5-85bd-b0afdd99adc4)
-
-
