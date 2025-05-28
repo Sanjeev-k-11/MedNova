@@ -1,0 +1,70 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Tailwind Base Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Font */
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Active State */
+.active hr {
+  @apply block;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  @apply hidden;
+}
+
+/* Dark Mode and Light Mode Styles */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Custom Styles for Active State on Small Screens */
+@media (max-width: 740px) {
+  .active p {
+    @apply text-white bg-primary;
+  }
+}
+
+/* Optional: If you want to apply dark mode on specific elements, you can use Tailwind's dark variant */
+button {
+  @apply dark:bg-gray-800 dark:text-white;
+}
+
+/* index.css */
+:root {
+  --bg-light: #f9f9f9;
+  --text-light: #1a1a1a;
+  --bg-dark: #1a1a1a;
+  --text-dark: #f9f9f9;
+}
+
+/* Light Mode */
+body {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark body {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}

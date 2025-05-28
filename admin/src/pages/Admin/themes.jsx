@@ -1,0 +1,210 @@
+// src/themes.js
+
+// Helper to convert Tailwind color names (like 'blue-500') to actual hex/rgb values
+// NOTE: This is a simplified example. A real implementation might need a more
+// robust way to map Tailwind classes to actual colors if needed for CSS vars,
+// or you can manually define the hex/rgb values. For simplicity,
+// we'll mostly rely on Tailwind classes directly in the components and use
+// manual values for the CSS vars needed for the calendar.
+const tailwindColorMap = {
+    // --- Default Theme Colors ---
+    'gray-50': '#f9fafb',
+    'gray-100': '#f3f4f6',
+    'gray-200': '#e5e7eb',
+    'gray-300': '#d1d5db',
+    'gray-500': '#6b7280',
+    'gray-600': '#4b5563',
+    'gray-700': '#374151',
+    'gray-800': '#1f2937',
+    'gray-900': '#111827',
+    'white': '#ffffff',
+    'blue-500': '#3b82f6',
+    'blue-600': '#2563eb',
+    'blue-900': '#1e3a8a',
+    'red-100': '#fee2e2',
+    'red-200': '#fecaca',
+    'red-500': '#ef4444',
+    'red-600': '#dc2626',
+    'red-700': '#b91c1c',
+    'red-800': '#991b1b',
+    'green-500': '#22c55e',
+    'green-600': '#16a34a',
+    // --- Ocean Blue Colors ---
+    'blue-50': '#eff6ff',
+    'blue-100': '#dbeafe',
+    'blue-200': '#bfdbfe',
+    'blue-300': '#93c5fd',
+    'blue-700': '#1d4ed8',
+    'cyan-500': '#06b6d4',
+    'cyan-600': '#0891b2',
+    'orange-500': '#f97316',
+    'orange-600': '#ea580c',
+    'teal-600': '#0d9488',
+    // --- Forest Green Colors ---
+     'green-50': '#f0fdf4',
+     'green-100': '#dcfce7',
+     'green-200': '#bbf7d0',
+     'green-300': '#86efac',
+     'green-700': '#15803d',
+     'green-900': '#14532d',
+     'emerald-500': '#10b981',
+     'emerald-600': '#059669',
+     'yellow-500': '#eab308',
+     'yellow-600': '#ca8a04',
+     'lime-600': '#65a30d',
+     // --- Charcoal Dark Colors ---
+     'gray-400': '#9ca3af',
+     'indigo-400': '#818cf8',
+     'indigo-500': '#6366f1',
+     'indigo-600': '#4f46e5',
+     'indigo-700': '#4338ca',
+     'green-400': '#4ade80',
+     'red-400': '#f87171',
+     // Add more colors as needed for other themes...
+};
+
+
+export const themes = [
+    {
+        name: "Default",
+        classes: { // Tailwind Classes
+            containerBg: "bg-white",
+            headerBorder: "border-gray-200",
+            headerText: "text-gray-800",
+            filterSectionBg: "bg-gray-50",
+            filterText: "text-gray-600",
+            inputBorder: "border-gray-300",
+            focusRing: "focus:ring-blue-500",
+            cardBg: "bg-white",
+            cardBorder: "border-gray-200",
+            cardTitleText: "text-gray-900",
+            cardSecondaryText: "text-gray-500",
+            cardPriceText: "text-blue-600",
+            cardQtyText: "text-gray-600",
+            buttonPrimaryBg: "bg-blue-500",
+            buttonPrimaryHoverBg: "hover:bg-blue-600",
+            buttonDangerBg: "bg-red-500",
+            buttonDangerHoverBg: "hover:bg-red-600",
+            textMuted: "text-gray-500",
+            textHighlightGreen: "text-green-600",
+            textHighlightRed: "text-red-600",
+        },
+        cssVars: { // Actual CSS color values for overrides (like calendar)
+            '--theme-name': "'Default'", // Add theme name for potential body class targeting
+            '--theme-card-title-text': tailwindColorMap['gray-900'],
+            '--theme-filter-section-bg': tailwindColorMap['gray-50'],
+            '--theme-card-secondary-text': tailwindColorMap['gray-500'],
+            '--theme-card-price-text': tailwindColorMap['blue-600'],
+            '--theme-button-primary-bg': tailwindColorMap['blue-500'],
+            '--theme-button-primary-hover-bg': tailwindColorMap['blue-600'],
+        }
+    },
+    {
+        name: "Ocean Blue",
+        classes: {
+            containerBg: "bg-blue-50",
+            headerBorder: "border-blue-200",
+            headerText: "text-blue-900",
+            filterSectionBg: "bg-blue-100",
+            filterText: "text-blue-700",
+            inputBorder: "border-blue-300",
+            focusRing: "focus:ring-cyan-500", // Use cyan focus
+            cardBg: "bg-white",
+            cardBorder: "border-blue-200",
+            cardTitleText: "text-blue-900",
+            cardSecondaryText: "text-blue-600",
+            cardPriceText: "text-cyan-600",
+            cardQtyText: "text-blue-700",
+            buttonPrimaryBg: "bg-cyan-500",
+            buttonPrimaryHoverBg: "hover:bg-cyan-600",
+            buttonDangerBg: "bg-orange-500",
+            buttonDangerHoverBg: "hover:bg-orange-600",
+            textMuted: "text-blue-500",
+            textHighlightGreen: "text-teal-600",
+            textHighlightRed: "text-orange-600",
+        },
+        cssVars: {
+             '--theme-name': "'Ocean Blue'",
+            '--theme-card-title-text': tailwindColorMap['blue-900'],
+            '--theme-filter-section-bg': tailwindColorMap['blue-100'],
+            '--theme-card-secondary-text': tailwindColorMap['blue-600'],
+            '--theme-card-price-text': tailwindColorMap['cyan-600'],
+            '--theme-button-primary-bg': tailwindColorMap['cyan-500'],
+            '--theme-button-primary-hover-bg': tailwindColorMap['cyan-600'],
+        }
+    },
+    {
+        name: "Forest Green",
+        classes: {
+            containerBg: "bg-green-50",
+            headerBorder: "border-green-200",
+            headerText: "text-green-900",
+            filterSectionBg: "bg-green-100",
+            filterText: "text-green-700",
+            inputBorder: "border-green-300",
+            focusRing: "focus:ring-emerald-500",
+            cardBg: "bg-white",
+            cardBorder: "border-green-200",
+            cardTitleText: "text-green-900",
+            cardSecondaryText: "text-green-600",
+            cardPriceText: "text-emerald-600",
+            cardQtyText: "text-green-700",
+            buttonPrimaryBg: "bg-emerald-500",
+            buttonPrimaryHoverBg: "hover:bg-emerald-600",
+            buttonDangerBg: "bg-yellow-500",
+            buttonDangerHoverBg: "hover:bg-yellow-600",
+            textMuted: "text-green-500",
+            textHighlightGreen: "text-lime-600",
+            textHighlightRed: "text-yellow-600",
+        },
+         cssVars: {
+            '--theme-name': "'Forest Green'",
+            '--theme-card-title-text': tailwindColorMap['green-900'],
+            '--theme-filter-section-bg': tailwindColorMap['green-100'],
+            '--theme-card-secondary-text': tailwindColorMap['green-600'],
+            '--theme-card-price-text': tailwindColorMap['emerald-600'],
+            '--theme-button-primary-bg': tailwindColorMap['emerald-500'],
+            '--theme-button-primary-hover-bg': tailwindColorMap['emerald-600'],
+        }
+    },
+    {
+        name: "Charcoal Dark",
+        classes: {
+            containerBg: "bg-gray-900",
+            headerBorder: "border-gray-700",
+            headerText: "text-gray-100",
+            filterSectionBg: "bg-gray-800",
+            filterText: "text-gray-400",
+            inputBorder: "border-gray-600",
+            focusRing: "focus:ring-indigo-500",
+            cardBg: "bg-gray-800",
+            cardBorder: "border-gray-700",
+            cardTitleText: "text-white",
+            cardSecondaryText: "text-gray-400",
+            cardPriceText: "text-indigo-400",
+            cardQtyText: "text-gray-300",
+            buttonPrimaryBg: "bg-indigo-600",
+            buttonPrimaryHoverBg: "hover:bg-indigo-700",
+            buttonDangerBg: "bg-red-700",
+            buttonDangerHoverBg: "hover:bg-red-800",
+            textMuted: "text-gray-500",
+            textHighlightGreen: "text-green-400",
+            textHighlightRed: "text-red-400",
+        },
+        cssVars: {
+            '--theme-name': "'Charcoal Dark'",
+            '--theme-card-title-text': tailwindColorMap['white'],
+            '--theme-filter-section-bg': tailwindColorMap['gray-800'],
+            '--theme-card-secondary-text': tailwindColorMap['gray-400'],
+            '--theme-card-price-text': tailwindColorMap['indigo-400'],
+            '--theme-button-primary-bg': tailwindColorMap['indigo-600'],
+            '--theme-button-primary-hover-bg': tailwindColorMap['indigo-700'],
+        }
+    },
+    // Add ~6 more themes here...
+];
+
+// Helper function to get theme object by name
+export const getThemeClasses = (themeName) => {
+    return themes.find(theme => theme.name === themeName) || themes[0]; // Fallback to default
+};
