@@ -325,24 +325,25 @@ npm run dev
 ![Screenshot 2025-05-21 230218](https://github.com/user-attachments/assets/fd512dd0-3a92-4483-941e-d097aa15cbfe)
 
 # User Login
-
-![image](https://github.com/user-attachments/assets/bcfc7d24-7e8e-4ddf-8b37-57e157e5575b)
+![Screenshot 2025-05-21 230412](https://github.com/user-attachments/assets/3fa761e3-876f-4a16-9440-30adfda05eda)
 # user Dasboard and some pages 
-![image](https://github.com/user-attachments/assets/497863a6-db7f-482d-8521-c454e358f19b)
-![image](https://github.com/user-attachments/assets/f0f529fd-4c41-4104-8cdd-ce8b53fcde76)
-![image](https://github.com/user-attachments/assets/542bae1f-525c-4fe8-ba11-03b01320cc2c)
-![image](https://github.com/user-attachments/assets/4c858c22-9da1-4107-9b09-7c7ec691dddc)
-![image](https://github.com/user-attachments/assets/834e6426-d5b7-458b-ac1b-e9c49f56609c)
-![image](https://github.com/user-attachments/assets/98e94110-b705-4cf3-8237-fb6a807f513a)
-![image](https://github.com/user-attachments/assets/c0065f7f-9a8a-49cd-b216-e6f11a7087fd)
-![image](https://github.com/user-attachments/assets/ae06f843-ad37-4299-989d-77c9846d8c92)
+![Screenshot 2025-05-21 230452](https://github.com/user-attachments/assets/648c6b82-efcc-431f-bf38-fd9e8d10e253)
+![Screenshot 2025-05-21 230537](https://github.com/user-attachments/assets/d2825c86-2a72-48d1-9b36-1696a146e4ab)
+![Screenshot 2025-05-21 230558](https://github.com/user-attachments/assets/f7a40d4f-7f28-4961-bcc1-ea73cb464f91)
+![Screenshot 2025-05-21 230614](https://github.com/user-attachments/assets/4297b3d7-8312-46aa-8dcd-4cf3790f84bd)
+![Screenshot 2025-05-21 230648](https://github.com/user-attachments/assets/fc45f42c-7c2d-4bff-9a46-dbb6c8dff016)
+![Screenshot 2025-05-21 230723](https://github.com/user-attachments/assets/effa9a3a-bc59-4bc3-a554-a302d2fdd528)
+![Screenshot 2025-05-21 230756](https://github.com/user-attachments/assets/1a3eb84a-89fd-40e9-9412-3586e37aa267)
+![Screenshot 2025-05-21 230813](https://github.com/user-attachments/assets/0f2c8432-c45b-4837-b270-b58d07f78c16)
+
+
 
 # staff and doctor and admin 
-![image](https://github.com/user-attachments/assets/1b34aa23-eb70-4656-9a20-8b590fd70ee8)
-![image](https://github.com/user-attachments/assets/0dc495e6-96ac-4b25-89d4-9e8ccc8fad1b)
-![image](https://github.com/user-attachments/assets/407a7eb6-b37f-41ff-9ea4-b9d06952df55)
-![image](https://github.com/user-attachments/assets/ccd1d510-c32f-4fe5-ae2c-50a17e81b15a)
-![image](https://github.com/user-attachments/assets/c22bba80-dfe4-4a60-8deb-6d5aa3508d85)
-![image](https://github.com/user-attachments/assets/7e16a0ef-63f5-4092-a0be-f04c95db5d99)
-![image](https://github.com/user-attachments/assets/a66685b9-789b-4381-9ffa-2e95f57344fe)
-![image](https://github.com/user-attachments/assets/a2f60163-9e18-4ee5-85bd-b0afdd99adc4)
+![Screenshot 2025-05-21 231010](https://github.com/user-attachments/assets/3578fa64-1d8e-4094-b399-9148614bd687)
+![Screenshot 2025-05-21 231031](https://github.com/user-attachments/assets/71e6aad9-f79c-49d3-a563-40fd4688a4a3)
+![Screenshot 2025-05-21 231053](https://github.com/user-attachments/assets/0b9e3ed5-6e26-4c3e-8cdc-47c7321be6f8)
+![Screenshot 2025-05-21 231159](https://github.com/user-attachments/assets/31b13ccb-37ab-42e3-a26a-d3aee0b8c1e1)
+![Screenshot 2025-05-21 231159](https://github.com/user-attachments/assets/b21a3c41-66ff-47e8-ba02-be70b0a22b6b)
+![Screenshot 2025-05-21 231242](https://github.com/user-attachments/assets/d172e28f-4913-4a12-b9dc-e6890eac9651)
+![Screenshot 2025-05-21 231305](https://github.com/user-attachments/assets/01475bd5-bea1-4204-a0b9-ad690dcc7c7a)
+![Screenshot 2025-05-21 231333](https://github.com/user-attachments/assets/5947d169-da50-4848-a812-ad0df7311872)
