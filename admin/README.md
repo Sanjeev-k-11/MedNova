@@ -145,6 +145,11 @@ Let me know if you'd like to combine both **user** and **admin** panel `README.m
 
 ```
 
+# Login admin, staff, Doctor
+![Screenshot 2025-05-21 230218](https://github.com/user-attachments/assets/fd512dd0-3a92-4483-941e-d097aa15cbfe)
+
+# staff info page
+
 ![Screenshot 2025-05-21 231010](https://github.com/user-attachments/assets/3578fa64-1d8e-4094-b399-9148614bd687)
 ![Screenshot 2025-05-21 231031](https://github.com/user-attachments/assets/71e6aad9-f79c-49d3-a563-40fd4688a4a3)
 ![Screenshot 2025-05-21 231053](https://github.com/user-attachments/assets/0b9e3ed5-6e26-4c3e-8cdc-47c7321be6f8)
