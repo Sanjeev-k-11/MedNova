@@ -73,7 +73,7 @@ A modern and responsive medical management system built with **React.js**. This 
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/react-medical-app.git
+git clone https://github.com/Sanjeev-k-11/MedNova.git
 cd react-medical-app/frontend
 
 ```
