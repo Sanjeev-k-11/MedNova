@@ -7,7 +7,7 @@ export const StaffContextProvider = ({ children }) => {
   const [staffToken, setStaffToken] = useState(localStorage.getItem('authToken') || '');
   const [profileData, setProfileData] = useState(null); // ✅ Add profile state
 
-  const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000';
+  const backendUrl = import.meta.env.VITE_BACKEND_URL || 'https://mednova-backend.onrender.com';
 
   // ✅ Keep localStorage in sync with token
   useEffect(() => {
