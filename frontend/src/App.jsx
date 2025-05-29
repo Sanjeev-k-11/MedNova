@@ -22,7 +22,7 @@ import Appointment from "./pages/Appointment";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import MedicineList from "./pages/MedicineList";
 import MyMedicines from "./pages/MyMedicines";
-import AdminLogin from "../../admin/src/pages/Login";
+
 // Create a new component to consume the theme context
 const ThemedAppContent = () => {
   const { currentTheme } = useTheme();
@@ -60,7 +60,7 @@ const ThemedAppContent = () => {
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/medicine" element={<MedicineList />} />
           <Route path="/my-medicines" element={<MyMedicines />} />
-          <Route path="/doctorpath" element={<AdminLogin/>}/>
+         
            {/* Consider adding a 404 Not Found Route */}
            <Route path="*" element={<div className="text-center py-10">404 - Page Not Found</div>} /> {/* Added basic styling */}
         </Routes>
