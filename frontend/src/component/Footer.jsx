@@ -78,7 +78,7 @@ const Footer = () => {
               <FaPhone className="text-lg text-gray-100" /> +111111111111
             </li>
             <li className="flex items-center gap-2">
-              <FaEnvelope className="text-lg text-gray-100" /> sy781405@gmail.com
+              <FaEnvelope className="text-lg text-gray-100" /> sk546@gmail.com
             </li>
             <li className="flex items-center gap-2">
               <FaHeartbeat className="text-lg text-red-300" /> 24/7 Emergency Support
