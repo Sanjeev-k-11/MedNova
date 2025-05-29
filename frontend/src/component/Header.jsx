@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { AppContext } from '../context/AppContext'; // Assuming context path is correct
 
 // Assuming your backend URL is correctly configured
-const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000';
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
 const Header = () => {
   // AppContext provides token and userData for determining logged-in/out state
