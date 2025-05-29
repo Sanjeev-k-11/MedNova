@@ -1,6 +1,6 @@
 // studentModel.js
 import mongoose from "mongoose";
-import bcrypt from 'bcrypt'; // Import bcryptjs for password hashing
+import bcrypt from 'bcryptjs'; // Import bcryptjs for password hashing
 
 const studentSchema = new mongoose.Schema({
   fullName: {
