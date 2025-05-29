@@ -1,5 +1,5 @@
 import validator from 'validator';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import mongoose from 'mongoose';
 import { v2 as cloudinary } from 'cloudinary';
 import jwt from 'jsonwebtoken';
