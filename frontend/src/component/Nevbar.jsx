@@ -75,14 +75,7 @@ const Navbar = () => {
         closeMobileMenu();
     };
 
-    // Handle Admin link click from mobile menu - closes menu then navigates
-    const handleAdminLinkClick = (event) => {
-        closeMobileMenu();
-        // Since it's an <a> tag, the default navigation will happen
-        // If you used a button or wanted to navigate programmatically, you'd use:
-        // window.location.href = "http://localhost:5174";
-    };
-
+    // Removed handleAdminLinkClick as the link is removed
 
     const logout = () => {
         setToken(false);
@@ -216,20 +209,7 @@ const Navbar = () => {
 
             <div className='flex items-center gap-2 sm:gap-30'>
 
-                 {/* Admin Panel Link (Desktop) - Shown only if NOT logged in */}
-                 {!token && (
-                     <a
-                        href="http://localhost:5174" // Full URL of the admin application
-                        // Optionally add target="_blank" to open in a new tab
-                        // target="_blank"
-                        // rel="noopener noreferrer" // Good practice for security when using target="_blank"
-                        className="hidden md:block border border-gray-300 px-4 py-1 rounded-full font-medium text-gray-700 hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2 focus-visible:ring-offset-current"
-                        style={{ color: currentTheme.textColor, borderColor: currentTheme.textColor, opacity: 0.8 }} // Optional: Style based on theme
-                     >
-                       Admin Panel
-                     </a>
-                 )}
-
+                 {/* Removed Admin Panel Link (Desktop) */}
 
                 {token && (
                     <div className="relative">
@@ -313,18 +293,7 @@ const Navbar = () => {
                                 </NavLink>
                             </li>
                         ))}
-                         {/* Admin Panel Link (Mobile) - Shown only if NOT logged in */}
-                         {!token && (
-                             <li key="mobile-admin-login" className="w-full mt-4 border-t border-gray-200 pt-4">
-                                 <a
-                                    href="http://localhost:5174"
-                                    className="py-3 block text-center transition-colors duration-200 w-full text-lg rounded-md text-blue-600 hover:text-blue-800 hover:bg-blue-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
-                                    onClick={handleAdminLinkClick}
-                                 >
-                                    Admin Panel
-                                 </a>
-                             </li>
-                         )}
+                         {/* Removed Admin Panel Link (Mobile) */}
                     </ul>
 
                     <div className="flex-grow"></div> {/* Spacer */}
